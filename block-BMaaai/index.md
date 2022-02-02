@@ -43,6 +43,10 @@ Go to `https://www.json-generator.com/`
 - download it on `Desktop`
 - import it into mongodb `test` database into a collection named `users`
 
+```
+mongoimport --host localhost:27017 --db test --collection users --file ~/Users/zehan/Desktop/generated.json 
+```
+
 #### Export data from mongodb server to local system in json format using
 
 `mongoexport`command.
